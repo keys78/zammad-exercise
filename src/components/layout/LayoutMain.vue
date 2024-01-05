@@ -17,6 +17,13 @@
                 exact-active-class="bg-gray-900 text-white"
                 >Home</router-link
               >
+              <router-link
+                to="/pokemon"
+                active="bg-red-500"
+                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                exact-active-class="bg-gray-900 text-white"
+                >Pokemons</router-link
+              >
             </div>
           </div>
         </div>

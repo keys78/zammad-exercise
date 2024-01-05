@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.card a:nth-of-type(5n + 1) {
+    @apply border-[#49C4E5];
+}
+
+.card a:nth-of-type(5n + 2) {
+    @apply border-[#8471F2];
+}
+
+.card a:nth-of-type(5n + 3) {
+    @apply border-[#67E2AE];
+}
+
+.card a:nth-of-type(5n + 4) {
+    @apply border-[#ff6fa2];
+}
+
+.card a:nth-of-type(5n + 5) {
+    @apply border-[#ffca5e];
+}
